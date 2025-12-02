@@ -1,0 +1,27 @@
+Package: commonPeak
+Type: Package
+Title: Identify Common Peaks Across ChIP-seq Samples
+Version: 0.1.0
+Author: August Swillus
+Maintainer: August Swillus <august.kueblerlab@gmail.com>
+Description: 
+    A tool that identifies common binding sites between groups of ChIP-seq samples.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+biocViews: ChIPSeq, DifferentialPeakCalling, Normalization, Sequencing, Software
+Depends:
+    R (>= 4.3)
+Imports:
+    GenomicRanges,
+    GenomicAlignments,
+    Rsamtools,
+    Rsubread,
+    DESeq2,
+    BiocParallel,
+    methods,
+    utils
+SystemRequirements:
+    bedtools (>= 2.30.0),
+    python3 with pandas and numpy
