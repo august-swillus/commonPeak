@@ -1,6 +1,6 @@
 **Overview**
 
-This package identifies ChIP-seq peak regions that show significantly similar signal intensity across replicates from different biological conditions. It can be used to benchmark novel ChIP-seq appraoches against standard ChIP, to identify whether the novel approach identifies peaks with a comparable sensitivity and specificity to the established protocol. Additionally, it can identify stable refernce peak regions for parralel-factor ChIP normalization. 
+This package identifies ChIP-seq peak regions that show significantly similar signal intensity across replicates from different biological conditions. It can be used to benchmark novel ChIP-seq approaches against standard ChIP, to identify whether the novel approach identifies peaks with a comparable sensitivity and specificity to the established protocol. Additionally, it can identify stable reference peak regions for parallel-factor ChIP normalization. 
 
 The main function runs a 4-step pipeline:
 1. Find intersecting peaks across all replicates 
