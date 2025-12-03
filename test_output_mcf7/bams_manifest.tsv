@@ -1,8 +1,0 @@
-group	sample	path	is_input	is_paired
-group_1	mcf7_resistant_rep1_SRR1021796	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_resistant_rep1_SRR1021796.bam	FALSE	FALSE
-group_1	mcf7_resistant_rep2_SRR1021797	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_resistant_rep2_SRR1021797.bam	FALSE	FALSE
-group_2	mcf7_respond_rep1_SRR1021787	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_respond_rep1_SRR1021787.bam	FALSE	FALSE
-group_2	mcf7_respond_rep2_SRR1021788	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_respond_rep2_SRR1021788.bam	FALSE	FALSE
-group_2	mcf7_respond_rep3_SRR1021789	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_respond_rep3_SRR1021789.bam	FALSE	FALSE
-group_1	mcf7_ctrl_resistant_SRR1021808	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_ctrl_resistant_SRR1021808.bam	TRUE	FALSE
-group_2	mcf7_ctrl_respond_SRR1021804	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/raw_data/mcf7_etc_bams/mcf7_ctrl_respond_SRR1021804.bam	TRUE	FALSE

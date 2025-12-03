@@ -1,6 +1,0 @@
-group	sample	path	type
-group_1	group1_bed_s1	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/results/commonBind/mcf7/filtered_bed_files/mcf7_resistant_rep1_SRR1021796_peaks.bed	peak
-group_1	group1_bed_s2	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/results/commonBind/mcf7/filtered_bed_files/mcf7_resistant_rep2_SRR1021797_peaks.bed	peak
-group_2	group2_bed_s1	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/results/commonBind/mcf7/filtered_bed_files/mcf7_respond_rep1_SRR1021787_peaks.bed	peak
-group_2	group2_bed_s2	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/results/commonBind/mcf7/filtered_bed_files/mcf7_respond_rep2_SRR1021788_peaks.bed	peak
-group_2	group2_bed_s3	/data/cephfs-1/home/users/ausw10_c/work/ichip_vs_chip/results/commonBind/mcf7/filtered_bed_files/mcf7_respond_rep3_SRR1021789_peaks.bed	peak
