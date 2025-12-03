@@ -45,6 +45,8 @@ commonPeak(
   group1_bam2 = "path/to/group1_sample2.bam"
   group2_bam1  = "path/to/group2_sample1.bam",
   group2_bam2 = "path/to/group2_sample2.bam"
+  group1_input_file = "path/to/group1_input.bam",
+  group2_input_file = "path/to/group2_input.bam",
   output_dir   = "results/dir"
 )
 
