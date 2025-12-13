@@ -26,6 +26,8 @@ ma_plot: create an MA plot (default)
 
 results_csv: create a results file listing the most common peaks with fold changes and p-value for significant similarity (default)
 
+cores: number of cores to use. Defaults to systems settings. 
+
 ---
 
 **Input expectations**
