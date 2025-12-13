@@ -28,13 +28,39 @@ results_csv: create a results file listing the most common peaks with fold chang
 
 ---
 
+**Input expectations**
+
+The commonPeak() wrapper function expects: 
+
+- ChIP-seq peak files (BED format)
+- Corresponding BAM files for each replicate
+- Optional input control BAM files 
+
+**Importantly, the names assigned to the input files need to follow the naming convention:** 
+- groupX_bedY for BED file replicate Y from group X
+- groupX_bamY for BAM file replicate Y from group X
+- groupX_input_bam for the input file of group X 
+
+Samples are automatically grouped by prefix: e.g. group1_bam1 and group1_bam2 will be grouped together, and group2_bam1 and group2_bam2 as well. 
+
+---
+
 **Installation and usage example**
 
+git clone https://github.com/august-swillus/commonPeak.git 
+cd commonPeak 
+conda env create -f environment.yml 
+conda activate commonPeak
+
 ```r
-# install.packages("devtools")   # if not installed already
-devtools::install_github("august-swillus/commonPeak")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("august-swillus/commonPeak")
 
 library(commonPeak)
+
+# In this example, peaks are identified that have significantly similar strenghts in group 1 and group 2, which represent different biological conditions. Each group has two replicates and an input file. 
 
 commonPeak(
   group1_bed1        = "path/to/group1_peakFile1.bed",
@@ -50,18 +76,6 @@ commonPeak(
   output_dir         = "results/dir"
 )
 ```
-
----
-
-**Input expectations**
-
-The commonPeak() wrapper function expects: 
-
-- ChIP-seq peak files (BED format)
-- Corresponding BAM files for each replicate
-- Optional input control BAM files (**the input file name must include the word "input" to be recognized**)
-
-Samples are grouped by prefix: e.g. group1_bam1 and group1_bam2 will be grouped together, and group2_bam1 and group2_bam2 as well. 
 
 ---
 
@@ -82,6 +96,8 @@ MA_plot.pdf (only created if ma_plot = TRUE): MA plot of DESeq2 results
 ---
 
 **Dependencies and system requirements**
+
+Compatible with Linux and MacOS, but not Windows systems. 
 
 All required dependencies are installed automatically. However, depending on your system, you might need to install any of the following dependencies:
 
