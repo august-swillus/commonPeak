@@ -48,8 +48,11 @@ Samples are automatically grouped by prefix: e.g. group1_bam1 and group1_bam2 wi
 **Installation and usage example**
 
 git clone https://github.com/august-swillus/commonPeak.git 
+
 cd commonPeak 
+
 conda env create -f environment.yml 
+
 conda activate commonPeak
 
 ```r
@@ -92,6 +95,8 @@ normalized_counts.csv: normalized read counts per peak
 deseq2_results.csv (only created if results_csv = TRUE): DESeq2 results for commonly strong peaks
 
 MA_plot.pdf (only created if ma_plot = TRUE): MA plot of DESeq2 results
+
+commonPeak_pipeline.log: summary of all errors
 
 ---
 
